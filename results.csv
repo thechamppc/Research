@@ -1,0 +1,5 @@
+n,false_positive,false_negative,accuracy
+20,.06,.06,.86
+40,.03,.03,.93
+60,.05,.02,.91
+80,.04,.02,.93
