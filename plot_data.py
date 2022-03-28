@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.axes import Axes
 import numpy
 
-CSV_FILE = 'results.csv'
+CSV_FILE = '/results.csv'
 
 def main():
     # read the data from the CSV files
@@ -20,7 +20,7 @@ def main():
     plt.xlabel('Number of Training Steps')
     plt.ylabel('Classification Accuracy')
     plt.grid(True)
-    plt.savefig('training_steps_vs_accuracy.png')
+    plt.savefig('/training_steps_vs_accuracy.png')
 
 if __name__=='__main__':
     main()
